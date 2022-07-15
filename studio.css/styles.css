@@ -271,6 +271,33 @@ ul {
   display: flex;
 }
 
+.about-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  /* outline: 1px solid red; */
+  margin-bottom: 30px;
+  background-color: var(--background-team-color);
+  border-radius: 4px;
+
+  background-image: url(../img/work-4/antenna-1.svg);
+  background-size: 65px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-clock::before {
+  background-image: url(../img/work-4/clock-2.svg);
+}
+
+.icon-diagram::before {
+  background-image: url(../img/work-4/diagram-3.svg);
+}
+
+.icon-astronaut::before {
+  background-image: url(../img/work-4/astronaut-4.svg);
+}
+
 .about-title {
   margin-bottom: 10px;
 
@@ -374,6 +401,40 @@ ul {
   /* height: 368px; */
 }
 
+.icon-team {
+  display: inline-flex;
+  height: 30px;
+  width: 30px;
+  background-image: url(../img/work-4/instagram-1.svg);
+  /* background-color: red; */
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  /* margin-left: 30px; */
+  margin-left: 25px;
+  margin-bottom: 30px;
+
+}
+
+.icon-twitter {
+background-image: url(../img/work-4/twitter-2.svg);
+}
+
+.icon-facebook {
+  background-image: url(../img/work-4/facebook\ -3.svg);
+}
+
+.icon-linkedin {
+   background-image: url(../img/work-4/linkedin-4.svg);
+}
+
+.icons {
+  display: flex;
+}
+
+
+
 .team-item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -398,7 +459,7 @@ ul {
 }
 .team-text {
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 
   font-weight: 400;
   font-size: 16px;
