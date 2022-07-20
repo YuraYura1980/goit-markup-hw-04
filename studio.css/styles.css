@@ -47,7 +47,6 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 a {
@@ -188,7 +187,7 @@ ul {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../img/work-4/heder-1.jpg);
+    url(../img/icons.svg/heder-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -274,29 +273,29 @@ ul {
 
 .about-item::before {
   display: block;
-  content: "";
+  content: "Дякую Юлі за перевірку";
   height: 120px;
   /* outline: 1px solid red; */
   margin-bottom: 30px;
   background-color: var(--background-team-color);
   border-radius: 4px;
 
-  background-image: url(../img/work-4/antenna-1.svg);
+  background-image: url(../img/icons.svg/antenna-1.svg);
   background-size: 65px 70px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .icon-clock::before {
-  background-image: url(../img/work-4/clock-2.svg);
+  background-image: url(../img/icons.svg/clock-2.svg);
 }
 
 .icon-diagram::before {
-  background-image: url(../img/work-4/diagram-3.svg);
+  background-image: url(../img/icons.svg/diagram-3.svg);
 }
 
 .icon-astronaut::before {
-  background-image: url(../img/work-4/astronaut-4.svg);
+  background-image: url(../img/icons.svg/astronaut-4.svg);
 }
 
 .about-title {
@@ -406,7 +405,7 @@ ul {
   display: inline-flex;
   height: 30px;
   width: 30px;
-  background-image: url(../img/work-4/instagram-1.svg);
+  background-image: url(../img/icons.svg/instagram-1.svg);
   /* background-color: red; */
   background-size: 20px;
   background-repeat: no-repeat;
@@ -416,25 +415,24 @@ ul {
   margin-left: 25px;
   margin-bottom: 30px;
 
+  
 }
 
 .icon-twitter {
-background-image: url(../img/work-4/twitter-2.svg);
+  background-image: url(../img/icons.svg/twitter-2.svg);
 }
 
 .icon-facebook {
-  background-image: url(../img/work-4/facebook\ -3.svg);
+  background-image: url(../img/icons.svg/);
 }
 
 .icon-linkedin {
-   background-image: url(../img/work-4/linkedin-4.svg);
+  background-image: url(../img/work-4/linkedin-4.svg);
 }
 
 .icons {
   display: flex;
 }
-
-
 
 .team-item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -471,29 +469,41 @@ background-image: url(../img/work-4/twitter-2.svg);
   background-color: var(--second-color);
 }
 
+.client-title {
+font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+}
+
 
 
 .client-item {
   margin: 0;
   padding: 0;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   display: inline-flex;
   width: 160px;
   height: 92px;
-    background-image: url(../img/work-4/instagram-1.svg);
+  background-image: url(../img/work-4/instagram-1.svg);
   /* background-color: red; */
   background-size: 41px 46px;
   background-repeat: no-repeat;
   background-position: center;
-  
+
   /* margin-left: 30px; */
   margin-left: 25px;
   margin-top: 30px;
   margin-bottom: 30px;
+
+  border: 1px solid #AFB1B8;
+border-radius: 4px;
 }
 
 .icon-twitter {
-background-image: url(../img/work-4/twitter-2.svg);
+  background-image: url(../img/work-4/twitter-2.svg);
 }
 
 .icon-facebook {
@@ -501,25 +511,12 @@ background-image: url(../img/work-4/twitter-2.svg);
 }
 
 .icon-linkedin {
-   background-image: url(../img/work-4/linkedin-4.svg);
+  background-image: url(../img/work-4/linkedin-4.svg);
 }
 
 .icons {
   display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Footer  */
 
@@ -580,13 +577,6 @@ background-image: url(../img/work-4/twitter-2.svg);
 
 .client-title {
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
-
-
-
-
-
-
-
 
