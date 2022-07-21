@@ -469,9 +469,6 @@ ul {
 
 /* Clients */
 
-
-
-
 .client-title {
   font-weight: 700;
   font-size: 36px;
@@ -484,10 +481,10 @@ ul {
 .client-list {
   margin: auto;
   padding: auto;
-
 }
 
 .buttons {
+  border: none;
   margin: 0;
   padding: 0;
   display: flex;
@@ -512,16 +509,16 @@ ul {
   fill: #2196f3;
 }
 
-
 .buttons-icon:hover {
-  background-color: #2196f3;
+  fill: var(--activ-color);
 }
 
 .client-item {
   margin: 0;
   padding: 0;
   display: inline-block;
-   margin-top: 50px;
+  margin-top: 50px;
+ 
 }
 
 .client-list > .client-item:not(:last-child) {
@@ -529,7 +526,6 @@ ul {
 }
 
 /* Footer  */
-
 
 .footer {
   padding-top: 60px;
@@ -590,4 +586,3 @@ ul {
   display: flex;
   justify-content: center;
 }
-
