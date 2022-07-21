@@ -280,22 +280,22 @@ ul {
   background-color: var(--background-team-color);
   border-radius: 4px;
 
-  background-image: url(../img/icons.svg/antenna-1.svg);
+  background-image: url(../img/icons.svg/peculiarities/antenna-1.svg);
   background-size: 65px 70px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .icon-clock::before {
-  background-image: url(../img/icons.svg/clock-2.svg);
+  background-image: url(../img/icons.svg/peculiarities/clock-2.svg);
 }
 
 .icon-diagram::before {
-  background-image: url(../img/icons.svg/diagram-3.svg);
+  background-image: url(../img/icons.svg/peculiarities/diagram-3.svg);
 }
 
 .icon-astronaut::before {
-  background-image: url(../img/icons.svg/astronaut-4.svg);
+  background-image: url(../img/icons.svg/peculiarities/astronaut-4.svg);
 }
 
 .about-title {
@@ -405,7 +405,7 @@ ul {
   display: inline-flex;
   height: 30px;
   width: 30px;
-  background-image: url(../img/icons.svg/instagram-1.svg);
+  background-image: url(../img/icons.svg/icon-team/instagram-1.svg);
   /* background-color: red; */
   background-size: 20px;
   background-repeat: no-repeat;
@@ -417,15 +417,15 @@ ul {
 }
 
 .icon-twitter {
-  background-image: url(../img/icons.svg/twitter-2.svg);
+  background-image: url(../img/icons.svg/icon-team/twitter-2.svg);
 }
 
 .icon-facebook {
-  background-image: url(../img/icons.svg/facebook\ -3.svg);
+  background-image: url(../img/icons.svg/icon-team/facebook-3.svg);
 }
 
 .icon-linkedin {
-  background-image: url(../img/icons.svg/linkedin-4.svg);
+  background-image: url(../img/icons.svg/icon-team/linkedin-4.svg);
 }
 
 .icons {
