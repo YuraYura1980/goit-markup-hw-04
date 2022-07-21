@@ -500,6 +500,12 @@ ul {
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons-icon {
+  width: 106px;
+  height: 60px;
 }
 
 .buttons:hover {
