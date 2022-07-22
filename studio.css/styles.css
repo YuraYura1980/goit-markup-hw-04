@@ -175,6 +175,87 @@ ul {
   transform: scale(1.03);
 } */
 
+/* icon telefone and mail */
+
+.footer-icons {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  width: 206px;
+  height: 80px;
+}
+
+.footer-title-icon {
+  display: flex;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-list-icon {
+  display: flex;
+  
+  justify-content: center;
+}
+
+.footer-button-icon {
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.footer-button-icon .footer-icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+.footer-icon:hover {
+  fill: var(--activ-color);
+}
+
+.footer-item-icon {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.footer-list-icon > .footer-item-icon:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-button-icon:hover {
+  background-color: #2196f3;
+}
+
+
+
+
+
+
+
+
+
+
 /* Section-main */
 
 .section {
