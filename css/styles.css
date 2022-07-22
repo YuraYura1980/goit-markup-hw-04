@@ -244,6 +244,9 @@ ul {
   border-bottom: 1px solid var(--border-color);
 }
 
+
+
+
 .project-title {
   /* text-align: start;
   margin-left: 24px;
@@ -346,4 +349,3 @@ ul {
   letter-spacing: 0.03em;
   color: var(--footer-rjba-color);
 }
-

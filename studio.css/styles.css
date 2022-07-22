@@ -503,11 +503,9 @@ ul {
 .buttons-icon {
   width: 106px;
   height: 60px;
+  fill: #afb1b8;
 }
 
-.buttons:hover {
-  fill: #2196f3;
-}
 
 .buttons-icon:hover {
   fill: var(--activ-color);
@@ -518,7 +516,6 @@ ul {
   padding: 0;
   display: inline-block;
   margin-top: 50px;
- 
 }
 
 .client-list > .client-item:not(:last-child) {
