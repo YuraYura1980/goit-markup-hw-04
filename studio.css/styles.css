@@ -15,6 +15,8 @@ html {
   --background-team-color: #f5f4fa;
   --card-set-gap: 30px;
 
+  --clients-color: #afb1b8;
+
   --footer-rjba-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -495,17 +497,16 @@ ul {
 
   background-color: #ffffff;
 
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--clients-color);
   border-radius: 4px;
   cursor: pointer;
 }
 
-.buttons-icon {
+.buttons .buttons-icon {
   width: 106px;
   height: 60px;
-  fill: #afb1b8;
+  fill: var(--clients-color);
 }
-
 
 .buttons-icon:hover {
   fill: var(--activ-color);

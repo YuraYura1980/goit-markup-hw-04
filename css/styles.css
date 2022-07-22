@@ -15,6 +15,7 @@ html {
   --background-team-color: #f5f4fa;
   --card-set-gap: 30px;
   --border-color: #ececec;
+  --clients-color: #afb1b8;
 
   --footer-rjba-color: rgba(255, 255, 255, 0.6);
 }
@@ -243,9 +244,6 @@ ul {
   border-right: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
 }
-
-
-
 
 .project-title {
   /* text-align: start;
