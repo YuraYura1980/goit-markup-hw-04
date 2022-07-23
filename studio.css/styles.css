@@ -142,9 +142,6 @@ ul {
   letter-spacing: 0.02em;
   margin-right: 50px;
   color: var(--accent-color);
-
-  width: 135px;
-  height: 16px;
 }
 
 .header-link-tel {
@@ -158,17 +155,17 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-
-  width: 122px;
-  height: 16px;
 }
 
 .link:hover,
 .link:focus {
   color: var(--activ-color);
-  /* transform: scale(1.03); */
+  transform: scale(1.03);
 }
 
+.header-container {
+  align-items: center;
+}
 /* .linko:hover,
 .link0:focus {
   color: rgb(219, 19, 79);
@@ -177,35 +174,7 @@ ul {
 
 /* icon telefone and mail */
 
-.footer-icons {
-  margin: 0;
-  padding: 0;
-  border: none;
-  display: flex;
-  width: 206px;
-  height: 80px;
-}
-
-.footer-title-icon {
-  display: flex;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #ffffff;
-}
-
-.footer-list-icon {
-  display: flex;
-  
-  justify-content: center;
-}
-
-.footer-button-icon {
+.header-button-icon {
   border: none;
   margin: 0;
   padding: 0;
@@ -217,44 +186,23 @@ ul {
 
   background-color: rgba(255, 255, 255, 0.1);
 
-  border: none;
   cursor: pointer;
-  border-radius: 50%;
 }
 
-.footer-button-icon .footer-icon {
+.header-icon {
+  display: flex;
+  align-items: center;
   width: 20px;
   height: 20px;
-  fill: #ffffff;
 }
 
-.footer-icon:hover {
+.header-icon:hover {
   fill: var(--activ-color);
 }
 
-.footer-item-icon {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  margin-top: 20px;
+.header-button-icon:hover {
+  color: var(--activ-color);
 }
-
-.footer-list-icon > .footer-item-icon:not(:last-child) {
-  margin-right: 10px;
-}
-
-.footer-button-icon:hover {
-  background-color: #2196f3;
-}
-
-
-
-
-
-
-
-
-
 
 /* Section-main */
 
@@ -264,7 +212,7 @@ ul {
 }
 
 .main {
-  /* background-image: linear-gradient(rgba(47, 48, 58, 0.4)); */
+  margin: 0 auto;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -321,6 +269,7 @@ ul {
   color: var(--second-color);
   background-color: var(--activ-color);
   transform: scale(1.03);
+  cursor: pointer;
 }
 
 /* about */
@@ -356,7 +305,7 @@ ul {
 
 .about-item::before {
   display: block;
-  content: "Дякую Юлі за перевірку";
+  content: "";
   height: 120px;
   /* outline: 1px solid red; */
   margin-bottom: 30px;
@@ -364,7 +313,7 @@ ul {
   border-radius: 4px;
 
   background-image: url(../img/icons.svg/peculiarities/antenna-1.svg);
-  background-size: 65px 70px;
+  background-size: 70px 70px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -513,6 +462,9 @@ ul {
 
 .icons {
   display: flex;
+  justify-content: center;
+  text-align: center;
+  background-position: center;
 }
 
 .team-item {
@@ -548,6 +500,58 @@ ul {
   letter-spacing: 0.03em;
   color: var(--accent-color);
   background-color: var(--second-color);
+}
+
+/* team-correct */
+
+.team-list-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.team-button-icon {
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  
+  background-color: rgba(255, 255, 255, 0.1);
+
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.team-button-icon .team-icon {
+  width: 20px;
+  height: 20px;
+  
+
+  }
+
+.team-icon:hover {
+  fill: var(--second-color);
+}
+
+.team-button-icon:hover {
+  fill: #ffffff;
+  background-color: #2196f3;
+}
+
+.team-item-icon {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.team-list-icon > .team-item-icon:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* Clients */
@@ -692,7 +696,7 @@ ul {
 
 .footer-list-icon {
   display: flex;
-  
+
   justify-content: center;
 }
 
