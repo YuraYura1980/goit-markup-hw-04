@@ -160,29 +160,22 @@ ul {
 .link:hover,
 .link:focus {
   color: var(--activ-color);
-  transform: scale(1.03);
+  /* transform: scale(1.03); */
 }
 
 .header-container {
   align-items: center;
 }
-/* .linko:hover,
-.link0:focus {
-  color: rgb(219, 19, 79);
-  transform: scale(1.03);
-} */
 
 /* icon telefone and mail */
 
-.header-button-icon {
+.header-link-icon {
   border: none;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
 
   background-color: rgba(255, 255, 255, 0.1);
 
@@ -192,15 +185,13 @@ ul {
 .header-icon {
   display: flex;
   align-items: center;
-  width: 20px;
-  height: 20px;
 }
 
 .header-icon:hover {
   fill: var(--activ-color);
 }
 
-.header-button-icon:hover {
+.header-link-icon:hover {
   color: var(--activ-color);
 }
 
@@ -218,7 +209,7 @@ ul {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../img/icons.svg/heder-1.jpg);
+    url(../img/icons.svg/icons/heder-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -268,7 +259,7 @@ ul {
 .main-btn:focus {
   color: var(--second-color);
   background-color: var(--activ-color);
-  transform: scale(1.03);
+  /* transform: scale(1.03); */
   cursor: pointer;
 }
 
@@ -312,22 +303,22 @@ ul {
   background-color: var(--background-team-color);
   border-radius: 4px;
 
-  background-image: url(../img/icons.svg/peculiarities/antenna-1.svg);
+  background-image: url(../img/icons.svg/icons/antenna-1.svg);
   background-size: 70px 70px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .icon-clock::before {
-  background-image: url(../img/icons.svg/peculiarities/clock-2.svg);
+  background-image: url(../img/icons.svg/icons/clock-2.svg);
 }
 
 .icon-diagram::before {
-  background-image: url(../img/icons.svg/peculiarities/diagram-3.svg);
+  background-image: url(../img/icons.svg/icons/diagram-3.svg);
 }
 
 .icon-astronaut::before {
-  background-image: url(../img/icons.svg/peculiarities/astronaut-4.svg);
+  background-image: url(../img/icons.svg/icons/astronaut-4.svg);
 }
 
 .about-title {
@@ -437,7 +428,7 @@ ul {
   display: inline-flex;
   height: 30px;
   width: 30px;
-  background-image: url(../img/icons.svg/icon-team/instagram-1.svg);
+  background-image: url(../img/icons.svg/icons/antenna-1.svg);
   /* background-color: red; */
   background-size: 20px;
   background-repeat: no-repeat;
@@ -449,7 +440,7 @@ ul {
 }
 
 .icon-twitter {
-  background-image: url(../img/icons.svg/icon-team/twitter-2.svg);
+  background-image: url(../../goit-markup-hw-04/img/icons.svg/icons/clock-2.svg);
 }
 
 .icon-facebook {
@@ -518,7 +509,7 @@ ul {
   align-items: center;
   width: 44px;
   height: 44px;
-  
+
   background-color: rgba(255, 255, 255, 0.1);
 
   border: none;
@@ -529,9 +520,7 @@ ul {
 .team-button-icon .team-icon {
   width: 20px;
   height: 20px;
-  
-
-  }
+}
 
 .team-icon:hover {
   fill: var(--second-color);
@@ -670,19 +659,12 @@ ul {
   justify-content: center;
 }
 
-/* footer-icon */
-
-.footer-icons {
-  margin: 0;
-  padding: 0;
-  border: none;
+/* footers-icon */
+.footer-icon {
   display: flex;
-  width: 206px;
-  height: 80px;
 }
 
 .footer-title-icon {
-  display: flex;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
