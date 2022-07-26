@@ -109,7 +109,6 @@ ul {
   margin-left: auto;
   justify-content: center;
   align-items: center;
-  gap: 30;
 }
 
 .header-link {
@@ -134,21 +133,7 @@ ul {
   margin-right: 50px;
 }
 
-.header-link-mail {
-  display: flex;
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  /* margin-left: 30px; */
-
-  color: var(--accent-color);
-}
-
-.header-link-tel {
+.header-container {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -159,49 +144,33 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+  gap: 30px;
 }
 
-.section-team {
-  outline: 1px solid red;
-}
-
-.container {
-  outline: 1px solid red;
-}
 .link:hover,
 .link:focus {
   color: var(--activ-color);
 }
 
-.header-container {
-  align-items: center;
-}
-
-/* icon telefone and mail */
-
-.header-link-icon {
-  border: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  cursor: pointer;
-}
-
 .header-icon {
-  display: flex;
-  align-items: center;
   margin-right: 10px;
 }
 
-.header-icon:hover {
-  fill: var(--activ-color);
+.header-link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--accent-color);
 }
 
-.header-link-icon:hover {
+.header-link-icon:hover,
+.header-link-icon:focus {
   color: var(--activ-color);
+}
+
+.header-icon {
+  fill: currentColor;
 }
 
 /* Section-main */
@@ -539,7 +508,11 @@ ul {
 
 /* Footer  */
 
-.footer-container {
+.footer-container-icon {
+  margin-left: 70px;
+}
+
+.footer-containers {
   display: flex;
   align-items: baseline;
 }
@@ -606,7 +579,6 @@ ul {
 
 /* footers-icon */
 
-
 .footer-title-icon {
   font-family: "Roboto";
   font-style: normal;
@@ -616,12 +588,13 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--second-color);
 }
 
 .footer-list-icon {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
   gap: 10px;
 }
 
@@ -636,7 +609,7 @@ ul {
   cursor: pointer;
   border-radius: 50%;
 
-  color: #ffffff;
+  color: var(--second-color);
 }
 
 .footer-icon {
@@ -645,6 +618,6 @@ ul {
 
 .footer-link-icon:hover,
 .footer-link-icon:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--second-color);
+  background-color: var(--activ-color);
 }
