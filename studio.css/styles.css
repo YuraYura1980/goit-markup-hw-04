@@ -161,6 +161,13 @@ ul {
   color: var(--accent-color);
 }
 
+.section-team {
+  outline: 1px solid red;
+}
+
+.container {
+  outline: 1px solid red;
+}
 .link:hover,
 .link:focus {
   color: var(--activ-color);
@@ -532,14 +539,19 @@ ul {
 
 /* Footer  */
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-color);
 }
 
-.container > .footer-links {
-  display: block;
+.footer-links {
+  display: flex;
   margin-bottom: 20px;
 }
 
@@ -593,6 +605,7 @@ ul {
 }
 
 /* footers-icon */
+
 
 .footer-title-icon {
   font-family: "Roboto";
